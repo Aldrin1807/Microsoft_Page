@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+li a{
+    color: black;
+    text-decoration: none;   
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    font-size: smaller;
+
+}
+#m1{
+    width: 1000px;
+}
+#m2{
+    width: 500px;
+    margin-right: 40px;
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+.lista img{
+    height: 23px;
+    margin-left: 140px;
+}
+#desc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(146, 15, 15);
+  
+}
+#desc a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#fotoja{
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Family-FY23HOL:VP5-1920x600);
+    height: 600px;
+}
+#teksti{
+    position: absolute;
+    top: 295px;
+    left: 1150px;
+}
+.blackf{
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    border: none;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+.paragrafi{
+    margin-top: 20px;
+}
+#teksti h1{
+    margin-top: 10px;
+}
+
+.shop{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+#ikonat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 250px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box img{
+    height: 40px;
+    width: 40px;
+}
+.box a{
+    margin-top: 10px;
+    color: black;
+}
+.produktet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px
+}
+.produkti{
+    padding: 10px;    
+}
+.produkti h1{
+    margin-top: 10px;
+}
+.produkti p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.produkti a{
+    color: rgb(160, 28, 28);
+    font-weight: bolder;
+}
+#fotoja2{
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Promo-Xbox-Wireless-Controllers-White-Black-FY23HOLPM:VP5-1596x600);
+    height: 600px;
+    width: 1580px;
+    margin:10px auto;
+}
+#shopPC{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bolder;
+}
+#teksti2{
+    position: absolute;
+    top: 1720px;
+    left: 1100px;
+}
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#fotoja3{
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Invictus-Anthem-For-All:VP5-1596x600);
+    height: 600px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#txt{
+    position: absolute;
+    top: 2900px;
+    left: 300px;
+    color: white;
+}
+#txt h1,p,button{
+    margin-top: 20px;
+}
+#btRead{
+    height: 35px;
+    width: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+}
+#follow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    font-size: larger;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+#ic{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-left: 50px;
+}
+
+footer{
+    margin-top: 60px;
+    background-color: rgb(212, 212, 212);
+    height: 320px;
+}
+#Tabelat{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: smaller;
+    padding: 30px;
+
+}
+
+.lists li{
+    list-style: none;
+    margin-top: 10px;
+    font-size: smaller;
+}
+#ff{
+    display: flex;
+    justify-content: space-between;
+}
+#ff1 a{
+    color: black;
+    padding-left: 10px;
+}
+#ff2 ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    justify-content: space-between;
+    font-size: smaller;
+    list-style: none;
+    width: 900px;
+}
+button{
+    cursor: pointer;
+}
